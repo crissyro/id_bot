@@ -12,7 +12,6 @@ API_TOKEN = os.getenv('TOKEN')
 
 logging.basicConfig(level=logging.INFO)
 
-
 async def main():
     if not API_TOKEN:
         logging.error("API_TOKEN is not set. Please check your .env file.")
